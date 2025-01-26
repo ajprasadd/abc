@@ -5,7 +5,7 @@ import pickle
 
 #Load the model
 with open('model.pkl','rb') as pkl:
-    classifier = pickle.load(pkl)
+    classifier = pickle.load(model,pkl)
 
 def main():
     style = """<div style='background-color: #12345F; padding:10px'>
